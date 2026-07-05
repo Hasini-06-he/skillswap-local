@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f0fb;
+  margin: 0;
+  padding: 40px 20px;
+  color: #2d2a3d;
+}
+
+h1 {
+  max-width: 500px;
+  margin: 0 auto 4px;
+  font-size: 28px;
+}
+
+body > p {
+  max-width: 500px;
+  margin: 0 auto 24px;
+  color: #665f7a;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  color: #4a4560;
+}
+
+input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd6ee;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #8b5cf6;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background: #8b5cf6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #c9bde8;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background: #7c3aed;
+}
+
+#postStatus {
+  max-width: 500px;
+  margin: 12px auto;
+  font-size: 14px;
+  color: #16a34a;
+  text-align: center;
+}
+
+#findMatchesBtn {
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+
+#matchResults {
+  max-width: 500px;
+  margin: 16px auto 0;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+#matchResults p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+#matchResults strong {
+  color: #6d28d9;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SkillSwap Local</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>SkillSwap Local</h1>
+  <p>Trade skills, not money.</p>
+
+  <form id="postForm">
+  <label for="name">Your Name</label>
+  <input type="text" id="name" required>
+
+  <label for="offers">I can teach</label>
+  <input type="text" id="offers" required>
+
+  <label for="wants">I want to learn</label>
+  <input type="text" id="wants" required>
+
+  <button type="submit">Post</button>
+</form>
+<p id="postStatus"></p>
+
+<button id="findMatchesBtn" disabled>Find Matches</button>
+<div id="matchResults"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
