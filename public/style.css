@@ -111,7 +111,7 @@ button:hover:not(:disabled) {
 #findMatchesBtn {
   width: 100%;
   max-width: 460px;
-  margin: 8px auto 60px;
+  margin: 8px auto 0;
   display: block;
   background: #ffffff;
   color: #1e1b2e;
@@ -127,7 +127,7 @@ button:hover:not(:disabled) {
 #matchResults {
   width: 100%;
   max-width: 460px;
-  margin: 20px auto 60px;
+  margin: 20px auto 0;
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.8);
