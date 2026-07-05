@@ -148,5 +148,4 @@ button:hover:not(:disabled) {
 
 #matchResults:empty {
   display: none;
-  display: flex;
 }
