@@ -145,3 +145,7 @@ button:hover:not(:disabled) {
 #matchResults strong {
   color: #8b5cf6;
 }
+
+#matchResults:empty {
+  display: none;
+}
