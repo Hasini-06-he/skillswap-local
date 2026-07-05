@@ -38,6 +38,9 @@ findMatchesBtn.addEventListener('click', async () => {
   }
 
   matchResults.innerHTML = data.matches
-    .map(m => `<p><strong>${m.name}</strong> can teach you ${m.offers}</p>`)
+    .map(m => {
+      const tags = (m.offersTags || []).map(t => `<span class="tag">${t}</span>`).join('');
+      return `<p><strong>${m.name}</strong> can teach you ${m.offers} ${tags}</p>`;
+    })
     .join('');
 });
